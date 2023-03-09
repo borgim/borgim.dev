@@ -1,4 +1,5 @@
 import { Container } from '@/components/shared/Container'
+import { Header } from '@/components/shared/Header'
 import { Navbar } from '@/components/shared/Navbar'
 import '../styles/globals.css'
 
@@ -15,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='bg-slate-700'>
-        <Navbar />
+        <Header />
         <Container>
           {children}
         </Container>
